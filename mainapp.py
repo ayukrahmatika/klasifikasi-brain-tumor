@@ -28,7 +28,7 @@ def build_sidebar():
     st.sidebar.markdown("The application will display the predicted tumor type or indicate no tumor.")
 
 def app():
-    model = load_model('resnet.h5')
+    model = load_model('classifier_brain_tumor.sav')
 
     st.title("Brain Tumor Classifier")
     st.markdown("")
